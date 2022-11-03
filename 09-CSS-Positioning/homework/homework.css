@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,25 +16,53 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: fixed;  /*Lo que hace la propiedad es que no se mueva con el scrol*/
+    top:0px;/*Aca queda quieto en el lugar designado*/
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex;
+    flex-direction: row-reverse;/*cambia de lugar de los items, tambien esta el de column que hace en columna*/
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+}
 
 
+/* Ejercicio 7. */
+#ejercicioSiete{
+    display: flex;
+    flex-direction: column-reverse;
 
-/* Ejercicio 6. */
+}
+#elementoUno{
+    position: relative;
+    left: 100px;
+}
+#elementoDos{
+    position: relative;
+    left: 200px;
+}
